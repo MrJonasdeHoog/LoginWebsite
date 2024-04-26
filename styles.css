@@ -1,0 +1,85 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.notes-widget {
+    background-color: #333; /* Darker background color for the widget */
+}
+.add-note-button {
+    color: white; /* White text color for the button */
+}
+.notes-widget {
+    position: relative;
+    width: 300px;
+    margin: 20px auto;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.note {
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+.add-note-button {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    cursor: pointer;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    font-weight: bold;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+.login-container {
+    background-color: black;
+    
+    border-radius: 10px; /* Rounded edges */
+    border: 2px solid #000; /* Black border */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Shadow Effect */
+    width: 300px;
+    margin: 0 auto;
+}
+.input-field {
+    margin-bottom: 15px;
+}
+
+.input-field input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.input-field input[type="button"] {
+    background-color: transparent;
+    border: 2px solid #000;
+    
+    color: #000;
+    border-radius: px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.input-field input[type="button"]:hover {
+    background-color: #000;
+    color: #fff;
+}
+
